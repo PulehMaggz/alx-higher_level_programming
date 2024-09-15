@@ -1,11 +1,12 @@
-# Python - Import & Modules
+# Import and Add
 
-This project demonstrates how to use import and modules in Python by implementing a simple addition function.
+This project includes a Python script (`0-add.py`) that imports a function from another file (`add_0.py`) and prints the result of an addition.
 
-## Files
+## Usage:
+Ensure both `0-add.py` and `add_0.py` are in the same directory, then run:
 
-- `add_0.py`: Contains the addition function `add(a, b)`.
-- `0-add.py`: Imports the `add` function and performs the addition of 1 + 2.
+```bash
+./0-add.py
 
 # Argument Counter
 
