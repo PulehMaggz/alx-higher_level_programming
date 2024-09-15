@@ -6,4 +6,4 @@ if __name__ == "__main__":
     b = 2  # Second variable assignment
 
     # Using string formatting to print the result as required
-    print(f"{a} + {b} = {add(a, b)}")
+    print("{} + {} = {} ".format(a, b, add(a, b)))
