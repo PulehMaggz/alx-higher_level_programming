@@ -19,3 +19,21 @@ class MyClass():
 
 obj = MyClass()
 print(lookup(obj))
+
+# MyList Class - Inheritance from List
+
+## Description
+
+This project defines a class `MyList` that inherits from the built-in Python `list` class.
+The `MyList` class adds a method `print_sorted` which prints the list sorted in ascending order.
+
+## Usage
+
+```python
+from 1-my_list import MyList
+
+my_list = MyList()
+my_list.append(3)
+my_list.append(1)
+my_list.append(2)
+my_list.print_sorted()  # This will print the list sorted: [1, 2, 3]
